@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hd1{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  background-color:white;
+  height: 100px;
+}
+.hd1_content {
+  display: flex;
+  flex-direction: row; /* This keeps the content side by side */
+  justify-content: space-between;
+}
+
+.hd1_c1{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 15px;
+}
+.hd1_c2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+}
+.hd1_c1 p{
+font-size: 15px;
+color: rgb(27, 27, 27);
 }
 
-.App-link {
-  color: #61dafb;
+.hd1_c2 p{
+  font-size: 15px;
+  color: rgb(27, 27, 27);
+  }
+
+.hd1_line {
+  width: 100%;
+}
+  
+.hd1_line hr {
+  border: 5px solid #ffdb3c; /* Ensure it's visible */
+  margin: 0px 0px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hd2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 70px 0px;
 }
+  
+.hd2_content {
+  display: flex;
+  flex-direction: row; /* This keeps the content side by side */
+  justify-content: space-between;
+}
+
+.hd2_c1 p{
+  margin-left: 50px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(27, 27, 27);
+}
+
+.hd2_c2 p{
+  margin-left: 70px;
+  text-align: left;
+  font-size: 15px;
+  color: rgb(27, 27, 27);
+}
+
+.hd2_line {
+  width: 100%;
+}
+
+.hd2_line hr {
+  border: 1px solid #000000; /* Ensure it's visible */
+  margin: 10px 50px; 
+}
+
+.hd3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hd3_content {
+  display: flex;
+  flex-direction: row; /* This keeps the content side by side */
+  justify-content: space-between;
+}
+
+.hd3_c1 p{
+  margin-left: 50px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(27, 27, 27);
+}
+
+.hd3_Jobs {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.hd3_c2 p{
+  font-size: 15px;
+  color: rgb(27, 27, 27);
+}
+
+.hd3_c3 p{
+  font-size: 15px;
+  color: rgb(27, 27, 27);
+}
+
+.hd3_line {
+  width: 100%;
+}
+
+.hd3_line hr {
+  border: 1px solid #000000; /* Ensure it's visible */
+  margin: 10px 50px; 
+}
+
+.hd4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hd4_content {
+  display: flex;
+  flex-direction: row; /* This keeps the content side by side */
+  justify-content: space-between;
+}
+
+.hd4_c1 p{
+  margin-left: 50px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(27, 27, 27);
+}
+
+.hd4_skills {
+  display: flex;
+  text-align: center;
+  margin-right: 1050px;
+  justify-content: space-between;
+}
+
+.hd4_c2, .hd4_c3, .hd4_c4 {
+  margin-right: 20px; /* Adjust this value to control the space between columns */
+  font-size: 15px;
+  color: rgb(27, 27, 27);
+}
+
+
+.hd4_line {
+  width: 100%;
+}
+
+.hd4_line hr {
+  border: 1px solid #000000; /* Ensure it's visible */
+  margin: 10px 50px; 
+}
+
+.hd5 {
+  display: flex;
+  flex-direction: row; /* This keeps the content side by side */
+  /* justify-content: space-between; */
+  gap: 90px; 
+} 
+
+.hd5_c1 p{
+  margin-left: 50px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(27, 27, 27);
+}
+
+.hd5_Levels {
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+  margin-left: 500px;
+}
+
+
+
+
